@@ -29,4 +29,8 @@ The database decides which rows an account can access. Translations and display 
 
 See [format.ts](format.ts) for how price and listing age are presented on a listing card. This source module is an excerpt from the application.
 
+## Follow a listing into the feed
+
+Run `node sample-feed.mjs` with Node.js 24 or newer. The [listing query](listing-feed.mjs) asks for active items, orders the feed and can filter by category. The example supplies an in-memory stand-in for Supabase and shows a fictional notebook. No production project, credentials or user records are required.
+
 [Back to the project index](https://github.com/IT-Yun/IT-Yun)
